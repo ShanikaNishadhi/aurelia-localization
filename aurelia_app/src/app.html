@@ -1,0 +1,9 @@
+<template>
+   <h1 i18n="profile_heading"></h1>
+
+   <div style="width: 400px; float:left;" t="profile.my_name_is"></div> <div style="width: 400px; float:left;">${profile.name}.</div><br><br>
+   <div style="width: 400px; float:left;" t="profile.my_profession_is"></div><div style="width: 400px; float:left;"></div>${profile.profession}.</div><br><br>
+   <div style="width: 400px; float:left;" t="profile.contact_me_over_phone"></div><div style="width: 400px; float:left;"></div>${profile.contact_number}.</div><br><br>
+   <div style="width: 400px; float:left;" t="profile.my_weight_is"></div><div style="width: 400px; float:left;"></div>${profile.weight | nf : undefined : selectedLocale}</div><br><br>
+   <div style="width: 400px; float:left;" t="profile.my_birthday_is"></div><div style="width: 400px; float:left;"></div>${profile.birthday | df : { year: 'numeric', month: 'numeric', day: 'numeric' } : selectedLocale}</div><br>
+</template>

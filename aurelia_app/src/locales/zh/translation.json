@@ -1,0 +1,10 @@
+{
+    "profile": {
+      "my_name_is": "我的名字是 ",
+      "my_profession_is": "我的专业是 ",
+      "contact_me_over_phone":"通过电话与我联系 ",
+      "my_weight_is" : "我的体重是",
+      "my_birthday_is" : " 我的生日是 "
+    },
+    "profile_heading": "轮廓"
+  }

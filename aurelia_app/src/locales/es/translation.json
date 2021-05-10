@@ -1,0 +1,10 @@
+{
+    "profile": {
+      "my_name_is": "Me llamo ",
+      "my_profession_is": "mi profesión es ",
+      "contact_me_over_phone":"Contáctame por teléfono ",
+      "my_weight_is" : "mi peso es ",
+      "my_birthday_is" : " Mi cumpleaños es "
+    },
+    "profile_heading": "Perfil"
+  }
